@@ -1,0 +1,658 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>灵当CRM - CRM软件,CRM系统,配置型CRM,私有云CRM,微信CRM,本地部署CRM</title>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui-for-work.min.css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/common-23.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob92/css/movies-app.css"><!-- 行业方案滑动效果 -->
+
+    <script type="text/javascript" src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob92/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/common-23.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-left lfloat">
+            <img src="image_20230506/logo.png">
+        </div>
+
+        <div class="header-middle lfloat"><p>销售咨询</p><strong>400-888-5110</strong></div>
+        <div class="header-right rfloat">
+            <img src="image_20230506/nav_rig_top_ico.png">
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="weui-cells weui-cells-menu marT0">
+            <a class="weui-cell weui-cell_access" href="index.html">
+                <!-- <div class="weui-cell__hd"><img src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob827/images/m_home_on.png"></div> -->
+                <div class="weui-cell__hd"><img src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob827/m_home_on.png"></div>
+                <div class="weui-cell__bd weui-cell__bd_on"><p>首页</p></div>
+                <div class="weui-cell__ft"></div>
+            </a>
+            <a class="weui-cell weui-cell_access" href="product.html">
+                <div class="weui-cell__hd"><img src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob827/m_product.png"></div>
+                <div class="weui-cell__bd"><p>产品介绍</p></div>
+                <div class="weui-cell__ft"></div>
+            </a>
+            <a class="weui-cell weui-cell_access" href="industry.html">
+                <div class="weui-cell__hd"><img src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob827/m_industry.png"></div>
+                <div class="weui-cell__bd"><p>行业方案</p></div>
+                <div class="weui-cell__ft"></div>
+            </a>
+            <a class="weui-cell weui-cell_access" href="about.html">
+                <div class="weui-cell__hd"><img src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob827/m_about.png"></div>
+                <div class="weui-cell__bd"><p>联系我们</p></div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="weui-tab">
+        <div class="weui-tab__panel">
+
+            <!-- 横幅start -->
+            <div class="banner">
+                <img src="image_20230506/banner1_20230506.jpg">
+                <div class="openFreeuse">
+
+                    <a href="javascript:;" class="banner-link"></a>
+                </div>
+            </div>
+            <!-- 横幅end -->
+
+            <!-- 个性化start -->
+            <div class = "ld-specialty">
+                <h3 class="ld-specialty-title">
+                    新一代个性化CRM，聚焦本地私有化部署
+                </h3>
+                <h3 class="ld-specialty-minititle">构建全新生命周期短数字化管理体系，提升企业管理效益、客户满意度，实现可持续业绩增长</h3>
+                <div class="ld-specialty-content">
+                    <div class="ld-specialty-component" style="top: 4%;left: 10%; margin-right: 20px;">
+                        <img class = "ld-specialty-component-img" src="image_20230506/privatization_ico1.png">
+                        <div class="ld-specialty-component-desc">
+                            <p class="bigtitle"><strong>数据安全性高</strong></p>
+                            <p class="smalltitle">数据存储在客户自己的服务器上，无需上传第三方或云端，私密数据的安全性更有保障。</p>
+                        </div>
+                    </div>
+                    <div class="ld-specialty-component" style="top: 21.5%;left: 33%;">
+                        <img class = "ld-specialty-component-img" src="image_20230506/privatization_ico2.png" style="padding-top: 10px;">
+                        <div class="ld-specialty-component-desc" style="padding-top: 0;">
+                            <p class="bigtitle"><strong>系统集成性好</strong></p>
+                            <p class="smalltitle">数据均部署在本地，有利于和ERP等系统集成接口，也有利于进行行业个性化定制开发。</p>
+                        </div>
+                    </div>
+                    <div class="ld-specialty-component" style="top: 45%;left: 43%;">
+                        <img class = "ld-specialty-component-img" src="image_20230506/privatization_ico3.png">
+                        <div class="ld-specialty-component-desc">
+                            <p class="bigtitle"><strong>数据资源有形化</strong></p>
+                            <p class="smalltitle">企业数据成为有形可见的硬件资源，资源管理迁移灵活可控。</p>
+                        </div>
+                    </div>
+                    <div class="ld-specialty-component" style="top: 65.5%;left: 33%;">
+                        <img class = "ld-specialty-component-img" src="image_20230506/privatization_ico4.png">
+                        <div class="ld-specialty-component-desc">
+                            <p class="bigtitle"><strong>外部干扰少</strong></p>
+                            <p class="smalltitle">通过内互联网工作，数据访问速度不受网络影响，传输速度更快，方便VPN访问。</p>
+                        </div>
+                    </div>
+                    <div class="ld-specialty-component" style="top: 84%;left: 10%; width: 90%;">
+                        <img class = "ld-specialty-component-img" src="image_20230506/privatization_ico5.png">
+                        <div class="ld-specialty-component-desc" style="padding-top: 8px;">
+                            <p class="bigtitle"><strong>性价比高</strong></p>
+                            <p class="smalltitle">拥有成本低，一次买断，终身使用。</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <ul class="four-plates">
+                    <li>
+                        <div class="plate">
+                            <img src="image_20230506/pro_feature_ico1.png">
+                            <p>客户管理数字化</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plate">
+                            <img src="image_20230506/pro_feature_ico2.png">
+                            <p>客户管理数字化</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plate">
+                            <img src="image_20230506/pro_feature_ico3.png">
+                            <p>客户管理数字化</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plate">
+                            <img src="image_20230506/pro_feature_ico4.png">
+                            <p>客户管理数字化</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 个性化end -->
+
+            <!-- 优势start -->
+            <div class="ld-advan">
+                <h3 class="ld-advan-title">六大核心优势</h3>
+                <h3 class="ld-advan-subtitle">个性化CRM专家-灵当CRM六大核心优势</h3>
+                <div class="ld-advan-content">
+                    <ul class="ld-six-plates">
+                        <li>
+                            <div class="plate">
+                                <div class="ld-advan-factor">
+                                    <h3 class="factor-name">个性自定义</h3>
+                                    <img class="factor-img" src="image_20230506/pro_adv_ico1.png">
+                                </div>
+                                <p class="factor-desc">全面支持无代码自定义设置，客户可根据自身行业痛点和特性，配置个性化的行业应用，满足企业个性化管理需求。</p>
+                                <a class="factor-more" href="https://www.51mis.com/product/">了解更多></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plate">
+                                <div class="ld-advan-factor">
+                                    <h3 class="factor-name">集成ERP接口</h3>
+                                    <img class="factor-img" src="image_20230506/pro_adv_ico2.png">
+                                </div>
+                                <p class="factor-desc">实现管理、财务多系统集成，支持多种ERP接口，统一管理数据，共享互联消除信息孤岛，真正做到数据化管理无碍。</p>
+                                <a class="factor-more" href="https://www.51mis.com/product/">了解更多></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plate">
+                                <div class="ld-advan-factor">
+                                    <h3 class="factor-name">本地私有化部署</h3>
+                                    <img class="factor-img" src="image_20230506/pro_adv_ico3.png">
+                                </div>
+                                <p class="factor-desc">企业数据存储在自己的服务器上，确保企业信息安全，消除数字化的后顾之忧。</p>
+                                <a class="factor-more" href="https://www.51mis.com/product/">了解更多></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plate">
+                                <div class="ld-advan-factor">
+                                    <h3 class="factor-name">更多行业方案</h3>
+                                    <img class="factor-img" src="image_20230506/pro_adv_ico4.png">
+                                </div>
+                                <p class="factor-desc">凭借敏锐的行业洞察力和服务3万客户的丰富经验，15年来打造了大量行业的专属解决方案，为客户提供行业专业化支持。</p>
+                                <a class="factor-more" href="https://www.51mis.com/product/">了解更多></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plate">
+                                <div class="ld-advan-factor">
+                                    <h3 class="factor-name">移动化办公</h3>
+                                    <img class="factor-img" src="image_20230506/pro_adv_ico5.png">
+                                </div>
+                                <p class="factor-desc">实现多平台内嵌，已全面对接个人微信、企业微信、钉钉、云之家，满足客户随时随地移动办公需求，无需安装额外APP。</p>
+                                <a class="factor-more" href="https://www.51mis.com/product/">了解更多></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="plate">
+                                <div class="ld-advan-factor">
+                                    <h3 class="factor-name">高性价比</h3>
+                                    <img class="factor-img" src="image_20230506/pro_adv_ico6.png">
+                                </div>
+                                <p class="factor-desc">产品功能强大，定价便宜，为更多中小型企业降低了尝试数字化管理的门槛，真诚助理中国企业数字化未来。</p>
+                                <a class="factor-more" href="https://www.51mis.com/product/">了解更多></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 优势end -->
+
+            <!-- 解决方案start -->
+            <div class="ld-solution">
+                <h3 class="ld-solution-title">灵当CRM的数字化解决方案</h3>
+                <h3 class="ld-solution-subtitle">凭借15年经验打造了大量行业专属解决方案，方便快速实施上线</h3>
+                <div style="padding: 0 12px;position: relative;">
+                    <div class="swiper">
+                        <div class="ld-solution-cardlist" id="ld_solution">
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/3_sol_dzgc.jpg">
+                                    </div>
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">电子科技</h3>
+                                        <p class="solution-desc">灵当电子制造行业解决方案，直销分销管理难题“一网打尽”。提出一套经销商管理方案，企业触达最终客户的方式更加直接便捷</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/4_sol_dljz.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">代理记账</h3>
+                                        <p class="solution-desc">灵当代理记账行业解决方案，将多种业务类型统一管理与分配，实现代理记账行业对流程各异业务的系统化管控，客</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/5_sol_zxrz.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">咨询认证</h3>
+                                        <p class="solution-desc">灵当咨询认证行业解决方案，建立360°客户档案库，可实现销售跟进情况一站式管理，方便数据录入、查询、统计，</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/6_sol_pfsc.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">批发商城</h3>
+                                        <p class="solution-desc">灵当批发商城行业解决方案，助力企业统一管理四大资源——商户、铺位、下游客户、渠道车辆，实现“1+3”多角</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/1_sol_zbzz.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">装备制造</h3>
+                                        <p class="solution-desc">灵当装备制造行业解决方案，涵盖销售、租赁、维修三大业务场景，规范销售人员、代理商、客服人员、工程师、财务人员等多种</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/2_sol_gcjs.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">工程建设</h3>
+                                        <p class="solution-desc">灵当工程建设行业解决方案，“以项目为中心”建立工程项目运作体系，将项目投标、项目推进、项目巡检、分项采购与风险预警等项目</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/3_sol_dzgc.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">电子科技</h3>
+                                        <p class="solution-desc">灵当电子制造行业解决方案，直销分销管理难题“一网打尽”。提出一套经销商管理方案，企业触达最终客户的方式更加直接便捷</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-items">
+                                    <div class="solution-img-container">
+
+                                        <img class = "solution-img" src="https://www.51mis.com/skin/default/images/4_sol_dljz.jpg">
+                                    </div>
+
+                                    <div class="ld-solution-content">
+                                        <h3 class="solution-name">代理记账</h3>
+                                        <p class="solution-desc">灵当代理记账行业解决方案，将多种业务类型统一管理与分配，实现代理记账行业对流程各异业务的系统化管控，客</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ld-solution-left" id="ld-solution-left">
+                        <img src="image_20230506/pre_ico.png">
+                    </div>
+                    <div class="ld-solution-right" id="ld-solution-right">
+                        <img src="image_20230506/next_ico.png">
+                        
+                    </div>
+                </div>
+
+                <ul class="ld-solution-dot">
+                    <li style="background-color: #2587ee;"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <a href="tel:4008885110">
+                    <div class="ld-solution-book">预约行业方案专家</div>
+                </a>
+            </div>
+
+            <!-- 解决方案end -->
+
+            <!-- 价值start -->
+            <div class="ld-value">
+                <h3 class="ld-value-title">以数字化方式创新的客户价值</h3>
+                <h3 class="ld-value-subtitle">通过平台化定制+流程自定义+集成互联+新型互联网技术，打造围绕真实业务场景的解决方案，助力企业数字化转型</h3>
+                <div style="padding: 0 12px;position: relative;">
+                    <div class="swiper">
+                        <div class="ld-value-cardlist" id="ld_value">
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gcjs/2022-11-24/123.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case7.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>誉帆环境：</strong>释放客户潜力，减轻项目管理负担，让企业管理简单化、标准化、精细化</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gyzz/2022-11-24/122.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case5.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>东方报警：</strong>用数字化方式领跑中国气体检测也预警设备行业</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_jxzb/2022-11-24/121.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case6.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>克莱门特：</strong>基于深度维修管理系统，精准助力业绩增长新势能</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gyzz/2022-11-24/120.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case4.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>五新钢模：</strong>构建覆盖业务全流程的数字化管理平台</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gkj/2022-11-24/119.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case3.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>大族激光：</strong>搭建企业数字化管理体系，保持智能制造领域领先水平</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gkj/2022-12-09/127.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case1.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>贝特莱：</strong>中国芯片企业怎样尝试数字化之路？看灵当CRM如何赋能智能芯片行业领导者率先突破重围。</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gkj/2022-11-25/124.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case2.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>时空道宇：</strong>“打通”项目管理，数字化管理推动中国航天卫星商业发展</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gcjs/2022-11-24/123.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case7.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>誉帆环境：</strong>释放客户潜力，减轻项目管理负担，让企业管理简单化、标准化、精细化</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <a class = "card-items" href="https://www.51mis.com/customercase/case_gyzz/2022-11-24/122.html">
+                                    <div class="value-img-container">
+                                        <img class = "value-img" src="https://www.51mis.com/skin/default/images/clients_case5.jpg">
+                                    </div>
+                                    <div class="ld-value-content">
+                                        <p class="value-desc"><strong>东方报警：</strong>用数字化方式领跑中国气体检测也预警设备行业</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ld-value-left" id="ld-value-left">
+                        <img src="image_20230506/pre_ico.png">
+                    </div>
+                    <div class="ld-value-right" id="ld-value-right">
+                        <img src="image_20230506/next_ico.png">
+                    </div>
+
+                </div>
+
+                <ul class="ld-value-dot">
+                    <li style="background-color: #2587ee;"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <a href="javascript:;">
+
+                    <div class="openFreeuse" style="margin: auto;width: 245px;">
+                        <div class="ld-value-book">即刻进入灵当CRM免费试用</div>
+
+                    </div>
+                </a>
+            </div>
+            <!-- 价值end -->
+
+            <!-- demo start -->
+            <div class="ld-demo">
+                <h3 class="ld-demo-title">服务企业展示</h3>
+                <h3 class="ld-demo-subtitle">各行业3万家企业的信任选择</h3>
+                <ul>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/01_qixinbangong_1009.jpg" alt="为齐心办公解决远程移动办公信息管理问题"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/02_dior_1009.jpg" alt="为迪奥搭建数字化业务流程管控平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/03_forte_1009.jpg" alt="为复地赋能全流程信息化物流管理"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/04_dazujiguang_1009.jpg" alt="为大族激光打造深度客户管理系统"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/05_lianhejishuzhongguo_1009.jpg" alt="为联合技术构建一体化CRM管理平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/06_longwei_1009.jpg" alt="为龙威搭建平台化销售管理"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/07_shanshuizhuangshi_1009.jpg" alt="为山水装饰集团打造销售管理自动化"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/08_guizhoumaotai_1009.jpg" alt="为贵州茅台集团解决企业数字化建设问题"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/09_aimasi_1009.jpg" alt="为爱马斯打造售后服务管理体系"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/10_xinhuabaoshe_1009.jpg" alt="为新华报业打造精细化项目管控平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/11_zhonruanguoji_1009.jpg" alt="为中软解决企业数字化进程问题"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/12_leruigu_1009.jpg" alt="为乐瑞固解决销售管理自动化问题"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/13_yangzhouduanya_1009.jpg" alt="为扬州锻压机床打造一体化CRM管理平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/14_tongchenglvyou_1009.jpg" alt="为同程旅游赋能企业数字化发展"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/15_hager_1009.jpg" alt="为德国海格电器赋能数字化管理创新"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/16_huaxiaxinfu_1009.jpg" alt="为华夏幸福加速产业数字化转型"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/17_imi_1009.jpg" alt="为希西艾赋能智能化售后服务体系"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/18_qilu_1009.jpg" alt="为齐鲁加快推进企业数字化转型"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/19_yuwangjituan_1009.jpg" alt="为禹王集团解决产业数字化创新问题"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/20_shanghaiyinhang_1009.jpg" alt="为上海银行打造销售自动化管理系统"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/andejixie_20211022.jpg" alt="为奥德推动企业CRM数字化变革"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/22_liyang_1009.jpg" alt="为力扬塑业打造CRM数字化管理平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/23-gunnebo_1009.jpg" alt="为固力保构建以数据驱动的业绩增长平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/24-henyinjinrong_1009.jpg" alt="为恒银金融打造深度客户管理系统"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/25-lijiuhe_1009.jpg" alt="为力九和构建销售管理自动化系统"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/26-hoya_1009.jpg" alt="为豪雅推动企业CRM数字化变革"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/27-joba_1009.jpg" alt="为秋柏化学打造销售流程管理系统"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/28-lanseguoji_1009.jpg" alt="为蓝色星际构建客户信息管理系统"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/29-chuanbo_20230310.jpg" alt="为中国船舶打造数字化管理平台"></div></li>
+                    <li><div class="item"><img src="https://www.51mis.com/skin/default/images/30-jufeng_1009.jpg" alt="为巨峰股份赋能企业CRM数字化变革"></div></li>
+                </ul>
+            </div>
+            <!-- demo end -->
+
+            <!-- 为何选择start -->
+            <div class="ld-why">
+                <h3 class="ld-why-title">为什么选择灵当CRM</h3>
+                <h3 class="ld-why-subtitle">各行业3万家企业的信任选择</h3>
+                <div class="two-plates">
+                    <div class="plate">
+                        <div class="plate-bg" style="background-image: url(image_20230506/why_choose_us_ico1.png);">
+                            <div class="why-content">
+                                <h3 class="why-name">专属行业解决方案</h3>
+                                <p class="why-desc">打造客户管理数字化、销售管理自动化、服务管理智能化、项目管理一体化的围绕真实业务场景的解决方案</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate">
+                        <div class="plate-bg" style="background-image: url(image_20230506/why_choose_us_ico2.png);">
+                            <div class="why-content">
+                                <h3 class="why-name">赋能业务新增长点</h3>
+                                <p class="why-desc">构建全新生命周期的数字化管理体系，提升经验管理效益</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-img-container">
+                    <h3 class="why-img-name">LTC, Leads to cash, 从线索到现金</h3>
+                    <img class = "why-img" src="image_20230506/l_to_c_pic.jpg">
+                    <h3 class="why-img-desc">灵当CRM作为数字化工具，助力企业实现业务增长</h3>
+                </div>
+            </div>
+            <!-- 为何选择end -->
+
+            <!-- 开启start -->
+            <div class="ld-commence">
+
+                <div class="ld-commence-container">
+                    <h1 class="ld-commence-title">20秒即刻开启</h1>
+                    <h1 class="ld-commence-title">数字化管理体验之旅</h1>
+
+                    <div class="openFreeuse" style="width: 155px;">
+                        <a href="javascript:;">
+                            <div class="ld-commence-book">即刻免费试用</div>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="image_20230506/trial_bg.jpg">
+
+
+            </div>
+            <!-- 开启end -->
+
+            <!-- 关于start -->
+            <div class="ld-about">
+                <div class="ld-about-content">
+                    <h3 class="ld-about-title">关于灵当CRM</h3>
+                    <p class="ld-about-desc">灵当CRM成立于2008年，是深耕行业15年的个性化CRM专家。公司总部位于上海浦东，目前已在北京、广州、深圳、苏州、武汉、南京等28个城市设有分公司和服务中心，在全国共有一千多家合作伙伴，为客户提供强有力的本地化服务支持。15年来，灵当CRM凭借优秀的产品，出色的实施能力和完善的售后体系，已服务20多个行业超3万家企业，是为中国企业插上数字化翅膀的赋能者！
+                        <br>
+                        <br>
+                    灵当CRM拥有6大核心优势：个性自定义、移动化办公、高性价比、更多行业方案、集成ERP接口和不是方式灵活！灵当CRM致力于为企业提供客户管理数字化、销售管理自动化、服务管理智能化、项目管理一体化的个性化CRM行业解决方案，构建全生命周期的数字化管理体系，实现可持续的业绩增长！</p>
+                </div>
+
+            </div>
+            <!-- 关于end -->
+        </div>
+
+
+        <div class="initial-bottom">
+            <div class="weui-tabbar" id="noactiontabbutton" style="z-index: 999;">
+                <a href="javascript:;" class="weui-tabbar__item">
+                    <div class="openFreeuse">
+                        <img src="image_20230506/bottom_ico1.png" alt="" class="weui-tabbar__icon">
+                        <p class="weui-tabbar__label">免费试用</p>
+                    </div>
+                </a>
+                <a href="tel:4008885110" class="weui-tabbar__item">
+                    <img src="image_20230506/bottom_ico2.png" alt="" class="weui-tabbar__icon">
+                    <p class="weui-tabbar__label">电话咨询</p>
+                </a>
+            </div>
+        </div>
+        <div class="change-bottom">
+            <div class="weui-tabbar">
+                <div class="weui-tabbar__item">
+                    <a href="javascript:;" class="newStyle bottom_button" style="margin-left: 20px;">
+                        <div class="openFreeuse">
+                            <img src="image_20230506/bottom_ico1.png" alt="" class="weui-tabbar__icon">
+                            <p class="weui-tabbar__label">免费试用</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="weui-tabbar__item">
+                    <a href="tel:4008885110" class="bottom_button newStyle" style="margin-right: 20px;">
+                        <img src="image_20230506/bottom_ico2.png" alt="" class="weui-tabbar__icon">
+                        <p class="weui-tabbar__label">电话咨询</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 免费试用弹出层 -->
+<div id="HBox">
+    <h3 class="freeUse-subtitle">客服人员会尽快与您取得联系，安排试用</h3>
+    <form action="" method="post" onsubmit="return false;">
+        <ul class="list">
+            <li>
+                <div>姓 名 <font color="#ff0000">*</font></div>
+                <div class="padT10"><input type="text" name="nickname" value="" class="ipt nickname" /></div>
+            </li>
+            <li>
+                <div>手 机 <font color="#ff0000">*</font></div>
+                <div class="padT10"><input type="text" name="phone" value="" class="ipt phone" /></div>
+            </li>
+            <li>
+                <div>企业名称 <font color="#ff0000">*</font></div>
+                <div class="padT10"><input type="text" name="companyname" value="" class="ipt companyname" /></div>
+            </li>
+            <li><input type="submit" value="确认提交信息" class="submitBtn" /></li>
+        </ul>
+    </form>
+</div>
+<!-- 提示弹出框 -->
+<div id="pointoutbox" style="position: fixed;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0,0,0,0.6);z-index: 999;display: none;">
+    <div class="pointoutbox">
+        <div style="height: 56%;width: 100%;text-align: center;">
+            <div style="margin: 20px auto;font-size: 18px;font-weight: 500;color: #333;line-height: 30px;">感谢您的申请，稍后会有方案</br>顾问与您联系！</div>
+            <div style="height: 1px;width: 50%;float: left;background: -webkit-linear-gradient(left,#fff, #666);background: -o-linear-gradient(left,#fff, #666);background: -moz-linear-gradient(left,#fff, #666);background: linear-gradient(left,#fff, #666);"></div><div style="height: 1px;width: 50%;float:left;background: -webkit-linear-gradient(left,#666, #fff);background: -o-linear-gradient(left,#666, #fff);background: -moz-linear-gradient(left,#666, #fff);background: linear-gradient(left,#666, #fff);"></div>
+        </div>
+        <div class="okbutton" onclick="cloaepointoutbox()">好的</div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.hDialog.js"></script><!-- 弹出层 -->
+<script src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob92/js/idangerous.swiper-2.0.min.js"></script><!-- 行业方案滑动效果 -->
+<script src="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob92/js/movies-app.js?version=1.0"></script><!-- 行业方案滑动效果 -->
+<script type="https://weixin-1255564871.cos.ap-shanghai.myqcloud.com/web_51mis/mob92/text/javascript" src="js/cnzz.js"></script><!-- 在线客服 -->
+</body>
+</html>
